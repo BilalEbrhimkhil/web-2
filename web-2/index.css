@@ -1,0 +1,159 @@
+ body{
+    margin: 0%;
+    background-color:#f5f5f5;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+  
+ }
+ .navgation{
+    height: 80px;
+    display: flex;
+    background-color:white;
+    color:black;
+    justify-content: flex-start;
+    align-items: center;  
+ }
+ .item-1{
+   margin-left: 0px;
+ }
+ .item-2{
+    margin-left: auto;
+    margin-right: 20px;
+    font-weight: bold;
+ }
+ .item-3{
+     margin-right: 50px;
+     font-weight: bold;
+ }
+ .icon{
+    width: 20px;
+    margin-left: 30px;
+    margin-right:5px;
+ }
+ .image-main{
+    width: 20px;
+ }
+ /* main */
+ .pic-main{
+    width: 100%;
+    height: 500px;
+    background-image: url("main-image.avif");
+    background-size: cover;
+ }
+ .text{
+    position: relative;
+    top: 60%;
+    margin-left: 30px;
+ }
+ h2{
+   margin-top: 5px;
+   margin-bottom: 3px;
+}
+p{
+   margin-top: 0;
+   margin-bottom: 0;
+
+   } 
+   .continer{
+      margin: 20px;
+      background-color: #f5f5f5;
+       padding: 10px;
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;   
+   } 
+   .item{
+      flex-grow: 1;
+      flex-basis: 200;
+       margin-top: 0;
+      color: #000;
+      padding: 20px;
+       
+   }
+   img{
+      width:350px;
+      height: 232px;
+      border-radius: 5px;  
+   }
+   .text-main{
+      font-size: 15px;
+      color: rgb(103, 99, 99);
+
+   }
+   .link{
+    height: 50px;
+    font-size: 20px;    
+    text-align: center;
+    margin-bottom: 50px;
+   }
+   a{
+      color: #000;
+      font-weight: bold;
+   }
+   footer{
+      width: 100%;
+      height: 109px;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 100px;
+      padding-top: 50px; 
+      background-color: #000;
+   }
+   h3{
+      margin: 0%;
+   }
+  @media only screen and (max-width: 600px)
+{     body{
+   width: fit-content;
+   
+}
+      .continer{
+         flex-direction: column;
+      } 
+      .pic-main{
+         height: 200px;
+       
+      }
+      .navgation{
+         height: 50px;
+         font-size: 15px; 
+      }
+      .item-2{   
+         margin-right: 15px;  
+      }
+      .item-3{
+          margin-right: 30px;
+      }
+      .icon{
+         width: 15px;
+         margin-left: 20px;
+      }
+      .image-main{
+         width: 15px;
+      }
+      .text{
+        font-size: 10px;
+      }
+      footer{
+         height: 50px;
+         margin-bottom:50px;
+         font-size: 15px;
+         margin-top: 0%;
+      }
+      .link{
+         height: 50px;
+         font-size: 10px;  
+         margin-bottom: 0%;   
+        }
+        .item{
+       width: 300px;
+     }
+     img{
+        width:300px;
+        height: 200px;
+        border-radius: 5px;  
+     }
+      }
+  

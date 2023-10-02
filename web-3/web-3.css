@@ -1,0 +1,143 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    background-color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+  
+ }
+.navgation{
+    height: 80px;
+    display: flex;
+    background-color:rgb(244, 243, 243);
+    color:black;
+    justify-content: flex-start;
+    align-items: center;  
+ }
+.icon-img{
+   width: 20px;
+}
+ .item-1{
+   margin-left: 0px;
+ }
+ .item-2{
+    margin-left: auto;
+    margin-right: 40px;
+    font-weight: bold;
+ }
+ .item-3{
+     margin-right: 50px;
+     font-weight: bold;
+ }
+ .icon{
+    width: 20px;
+    margin-left: 30px;
+    margin-right:5px;
+ }
+ .text{
+   margin:100px;
+   margin-bottom:20px;
+ }
+ .image{
+   background-image: url("main-image.avif");
+   background-size:cover;
+   background-repeat: no-repeat;
+   height: 500px;
+   margin: 20px 50px;
+ }
+ .recent{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 0%
+}
+
+img{
+  width:350px;
+  height: 232px;
+  border-radius: 5px;
+  
+}
+.post{
+   margin: 20px;
+   margin-top: 0%;
+   background-color: #f5f5f5;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+} 
+.item{
+   margin-top: 0;
+    color: #000;
+    padding: 20px;
+   }
+h2{
+   margin-top: 5px;
+   margin-bottom: 3px;
+}
+p{
+   margin-top: 20px;
+   font-size: 15px;
+   color: rgb(103, 99, 99);
+   } 
+   footer{
+      width: 100%;
+      height: 109px;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 100px;
+      padding-top: 50px; 
+      background-color: #000;
+   }
+   h3{
+      margin:0%;
+      color: #f5f5f5;
+   }
+   .pfooter{
+      margin:5px;
+   }
+ 
+      @media only screen and (max-width: 600px)
+{     body{
+   width: fit-content;
+   
+}
+      .post{
+         flex-direction: column;
+         margin: 0%;
+      } 
+     
+.navgation{
+   height: 50px;
+}
+.icon-img{
+  width: 15px;
+}
+ 
+.item-2{
+  font-size: 10px;
+}
+.item-3{
+   font-size: 10px;
+}
+.icon{
+   width: 10px; 
+}
+.image{
+   width: 100%;
+   height: 300px;
+   margin: 0%;
+   
+ }   footer{
+   height: 50px;
+   margin-bottom:50px;
+   font-size: 15px;
+   margin-top: 0%;
+}
+ 
+      }
+
+   
+    
